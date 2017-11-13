@@ -1,0 +1,43 @@
+shuffleStatuses: 0.023MB
+----------------------------------------
+braodcastvalues:2.401MB
+bytes: 0.614MB
+----------------------------------------
+stage0 task: 10, memory used: 0.00274MB
+stage3 task: 10, memory used: 0.00278MB
+stage10 task: 10, memory used: 0.00322MB
+stage4 task: 1, memory used: 0.00508MB
+stage5 task: 1, memory used: 0.06914MB
+stage12 task: 20, memory used: 0.01504MB
+stage11 task: 20, memory used: 0.00586MB
+stage1 task: 1, memory used: 0.0043MB
+stage7 task: 1, memory used: 0.27168MB
+stage2 task: 1, memory used: 0.01562MB
+stage6 task: 1620, memory used: 0.37382MB
+stage8 task: 6480, memory used: 0.43594MB
+stage13 task: 20, memory used: 0.01484MB
+stage9 task: 20, memory used: 0.00586MB
+totalTasks: 8215
+totalMemory: 1.22592 MB
+----------------------------------------
+stage11 0.097MB
+stage10 0.053MB
+stage13 0.119MB
+stage12 0.107MB
+stage1 0.005MB
+stage0 0.05MB
+stage3 0.051MB
+stage2 0.005MB
+stage5 0.005MB
+stage4 0.005MB
+stage7 0.005MB
+stage6 7.878MB
+stage9 0.103MB
+stage8 33.488MB
+PROCESS_LOCAL: memory(MB):41.521
+PROCESS_LOCAL: num:8130
+NODE_LOCAL: memory(MB):0.426
+NODE_LOCAL: num:85
+Recalculated: memory(MB):0.025
+Recalculated: num:5
+----------------------------------------

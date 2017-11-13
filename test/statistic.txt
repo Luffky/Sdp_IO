@@ -1,0 +1,77 @@
+shuffleStatuses: 0.056MB
+----------------------------------------
+braodcastvalues:2.957MB
+bytes: 0.706MB
+----------------------------------------
+job: 0
+ShuffleMapStage0 task: 5, memory used: 0.00274MB 
+ShuffleMapStage3 task: 5, memory used: 0.00278MB 
+ShuffleMapStage10 task: 5, memory used: 0.00322MB 
+ShuffleMapStage1 task: 1, memory used: 0.0043MB 
+ShuffleMapStage4 task: 1, memory used: 0.00508MB 
+ShuffleMapStage5 task: 1, memory used: 0.06914MB 
+ShuffleMapStage12 task: 20, memory used: 0.01504MB 
+ShuffleMapStage11 task: 20, memory used: 0.00586MB 
+ShuffleMapStage7 task: 1, memory used: 0.27168MB 
+ShuffleMapStage2 task: 1, memory used: 0.01562MB 
+ShuffleMapStage6 task: 1620, memory used: 0.37382MB 
+ShuffleMapStage8 task: 6480, memory used: 0.43594MB 
+ShuffleMapStage13 task: 20, memory used: 0.01484MB 
+ShuffleMapStage9 task: 20, memory used: 0.00586MB 
+ShuffleMapStage14 task: 120, memory used: 0.0127MB 
+ShuffleMapStage15 task: 120, memory used: 0.01074MB 
+ShuffleMapStage16 task: 20, memory used: 0.05684MB 
+ShuffleMapStage17 task: 324, memory used: 0.02832MB 
+ShuffleMapStage18 task: 324, memory used: 0.02246MB 
+ShuffleMapStage19 task: 324, memory used: 0.02246MB 
+ShuffleMapStage20 task: 81, memory used: 0.00898MB 
+ResultStage21 task: 81, memory used: 0.00528MB 
+jobTasks: 9594
+jobMemory: 1.3937
+
+job: 1
+ShuffleMapStage41 task: 81, memory used: 0.00664MB 
+ShuffleMapStage43 task: 5, memory used: 0.00274MB 
+ShuffleMapStage44 task: 1, memory used: 0.0043MB 
+ShuffleMapStage42 task: 1, memory used: 0.0041MB 
+ResultStage45 task: 1, memory used: 0.00378MB 
+jobTasks: 89
+jobMemory: 0.02156
+
+totalTasks: 9683
+totalMemory: 1.41526 MB
+----------------------------------------
+stage20 0.394MB
+stage21 0.419MB
+stage44 0.005MB
+stage45 0.005MB
+stage42 0.005MB
+stage43 0.025MB
+stage41 0.394MB
+stage1 0.005MB
+stage0 0.025MB
+stage3 0.025MB
+stage2 0.005MB
+stage5 0.005MB
+stage4 0.005MB
+stage7 0.005MB
+stage6 7.878MB
+stage9 0.103MB
+stage8 33.488MB
+stage11 0.097MB
+stage10 0.027MB
+stage13 0.103MB
+stage12 0.097MB
+stage15 0.584MB
+stage14 0.62MB
+stage17 1.674MB
+stage16 0.104MB
+stage19 1.576MB
+stage18 1.576MB
+PROCESS_LOCAL: memory(MB):41.469
+PROCESS_LOCAL: num:8120
+NODE_LOCAL: memory(MB):7.78
+NODE_LOCAL: num:1563
+Recalculated: memory(MB):0.0
+Recalculated: num:0
+----------------------------------------

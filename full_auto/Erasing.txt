@@ -1,0 +1,125 @@
+spark.MapOutputTrackerMaster - Size of output statuses for shuffle is bytes
+spark.MapOutputTrackerMaster - Epoch changed, not caching!
+storage.DiskBlockManager - Created local directory at /tmp/blockmgr-c-a-bc
+spark.SecurityManager - Changing view acls to: hadoop
+spark.SecurityManager - Changing modify acls to: hadoop
+spark.SecurityManager - Changing modify acls groups to: 
+spark.SecurityManager - SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set; groups with view permissions: Set; users with modify permissions: Set; groups with modify permissions: Set
+spark.SecurityManager - Changing view acls groups to: 
+storage.BlockManagerMasterEndpoint - Registering block manager with GB RAM, BlockManagerId
+util.ShutdownHookManager - Deleting directory /tmp/spark-cafd-caf
+util.ShutdownHookManager - Shutdown hook called
+storage.BlockManagerMaster - Registering BlockManager BlockManagerId
+storage.BlockManagerMaster - Registered BlockManager BlockManagerId
+storage.BlockManagerMaster - BlockManagerMaster stopped
+scheduler.TaskSetManager - Finished task in stage in ms on 
+scheduler.TaskSetManager - Starting task in stage 
+scheduler.DAGScheduler - Missing parents: List
+scheduler.DAGScheduler - Submitting missing tasks from ShuffleMapStage 
+scheduler.DAGScheduler - ShuffleMapStage finished in s
+scheduler.DAGScheduler - Submitting ResultStage , which has no missing parents
+scheduler.DAGScheduler - Submitting missing tasks from ResultStage 
+scheduler.DAGScheduler - ResultStage finished in s
+scheduler.DAGScheduler - Got job with output partitions
+scheduler.DAGScheduler - Final stage: ResultStage 
+scheduler.DAGScheduler - Registering RDD 
+scheduler.DAGScheduler - failed: Set
+scheduler.DAGScheduler - Submitting ShuffleMapStage , which has no missing parents
+scheduler.DAGScheduler - running: Set
+scheduler.DAGScheduler - Parents of final stage: List
+scheduler.DAGScheduler - looking for newly runnable stages
+scheduler.DAGScheduler - waiting: Set
+scheduler.DAGScheduler - Job finished: count at Pipeline_partitioning_auto.scala: took s
+cluster.StandaloneSchedulerBackend - Shutting down all executors
+cluster.StandaloneSchedulerBackend - Connected to Spark cluster with app ID app-
+cluster.StandaloneSchedulerBackend - Granted executor ID app-on hostPort with cores, GB RAM
+cluster.StandaloneSchedulerBackend - SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 
+storage.BlockManager - BlockManager stopped
+spark.MapOutputTrackerMasterEndpoint - Asked to send map output locations for shuffle to 
+spark.MapOutputTrackerMasterEndpoint - MapOutputTrackerMasterEndpoint stopped!
+server.ServerConnector - Started ServerConnector@cHTTP/{}
+server.ServerConnector - Stopped ServerConnector@cHTTP/{}
+client.TransportClientFactory - Successfully created connection to hadoop after ms 
+storage.BlockManagerInfo - Removed broadcast_pieceon in memory 
+storage.BlockManagerInfo - Added broadcast_piecein memory on 
+cluster.CoarseGrainedSchedulerBackend$DriverEndpoint - Registered executor NettyRpcEndpointRef with ID 
+cluster.CoarseGrainedSchedulerBackend$DriverEndpoint - Asking each executor to shut down
+cluster.CoarseGrainedSchedulerBackend$DriverEndpoint - Launching task on executor id: hostname: 
+spark.SparkEnv - Registering OutputCommitCoordinator
+spark.SparkEnv - Registering MapOutputTracker
+spark.SparkEnv - Registering BlockManagerMaster
+util.Utils - Successfully started service 'SparkUI' on port 
+util.Utils - Successfully started service 'sparkDriver' on port 
+util.Utils - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 
+scheduler.TaskSchedulerImpl - Adding task set with tasks
+scheduler.TaskSchedulerImpl - Removed TaskSet  whose tasks have all completed, from pool 
+scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint - OutputCommitCoordinator stopped!
+scheduler.EventLoggingListener - Logging events to file:///datadiskapp-
+ui.SparkUI - Bound SparkUI to  and started at 
+ui.SparkUI - Stopped Spark web UI at 
+server.Server - jetty-z-SNAPSHOT
+server.Server - Started @s
+util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+netty.NettyBlockTransferService - Server created on 
+handler.ContextHandler - Started o.s.j.s.ServletContextHandler@bcffe{/jobs/job/json,null,AVAILABLE}
+handler.ContextHandler - Started o.s.j.s.ServletContextHandler@f/environment/json,null,AVAILABLE}
+handler.ContextHandler - Stopped o.s.j.s.ServletContextHandler@ac/executors/threadDump,null,UNAVAILABLE}
+handler.ContextHandler - Stopped o.s.j.s.ServletContextHandler@fb{/executors/threadDump/json,null,UNAVAILABLE}
+handler.ContextHandler - Stopped o.s.j.s.ServletContextHandler@c/,null,UNAVAILABLE}
+handler.ContextHandler - Started o.s.j.s.ServletContextHandler@{/jobs/json,null,AVAILABLE}
+handler.ContextHandler - Stopped o.s.j.s.ServletContextHandler@/static,null,UNAVAILABLE}
+handler.ContextHandler - Started o.s.j.s.ServletContextHandler@a/storage/json,null,AVAILABLE}
+handler.ContextHandler - Started o.s.j.s.ServletContextHandler@/stages/json,null,AVAILABLE}
+handler.ContextHandler - Stopped o.s.j.s.ServletContextHandler@/stages,null,UNAVAILABLE}
+handler.ContextHandler - Started o.s.j.s.ServletContextHandler@dd/api,null,AVAILABLE}
+handler.ContextHandler - Started o.s.j.s.ServletContextHandler@ac/executors/threadDump,null,AVAILABLE}
+handler.ContextHandler - Started o.s.j.s.ServletContextHandler@/stages/pool/json,null,AVAILABLE}
+handler.ContextHandler - Stopped o.s.j.s.ServletContextHandler@dd/api,null,UNAVAILABLE}
+handler.ContextHandler - Stopped o.s.j.s.ServletContextHandler@d/storage/rdd,null,UNAVAILABLE}
+handler.ContextHandler - Started o.s.j.s.ServletContextHandler@/stages,null,AVAILABLE}
+handler.ContextHandler - Started o.s.j.s.ServletContextHandler@/metrics/json,null,AVAILABLE}
+handler.ContextHandler - Stopped o.s.j.s.ServletContextHandler@/stages/stage,null,UNAVAILABLE}
+handler.ContextHandler - Stopped o.s.j.s.ServletContextHandler@f{/jobs,null,UNAVAILABLE}
+handler.ContextHandler - Started o.s.j.s.ServletContextHandler@e{/stages/stage/kill,null,AVAILABLE}
+handler.ContextHandler - Started o.s.j.s.ServletContextHandler@/stages/pool,null,AVAILABLE}
+handler.ContextHandler - Started o.s.j.s.ServletContextHandler@{/jobs/job,null,AVAILABLE}
+handler.ContextHandler - Started o.s.j.s.ServletContextHandler@f{/jobs,null,AVAILABLE}
+handler.ContextHandler - Started o.s.j.s.ServletContextHandler@{/stages/stage/json,null,AVAILABLE}
+handler.ContextHandler - Stopped o.s.j.s.ServletContextHandler@{/jobs/job,null,UNAVAILABLE}
+handler.ContextHandler - Stopped o.s.j.s.ServletContextHandler@/stages/pool/json,null,UNAVAILABLE}
+handler.ContextHandler - Stopped o.s.j.s.ServletContextHandler@cd/storage,null,UNAVAILABLE}
+handler.ContextHandler - Stopped o.s.j.s.ServletContextHandler@f/storage/rdd/json,null,UNAVAILABLE}
+handler.ContextHandler - Started o.s.j.s.ServletContextHandler@ced{/executors/json,null,AVAILABLE}
+handler.ContextHandler - Stopped o.s.j.s.ServletContextHandler@bcffe{/jobs/job/json,null,UNAVAILABLE}
+handler.ContextHandler - Stopped o.s.j.s.ServletContextHandler@/stages/json,null,UNAVAILABLE}
+handler.ContextHandler - Stopped o.s.j.s.ServletContextHandler@e{/stages/stage/kill,null,UNAVAILABLE}
+handler.ContextHandler - Started o.s.j.s.ServletContextHandler@/static,null,AVAILABLE}
+handler.ContextHandler - Started o.s.j.s.ServletContextHandler@fb{/executors/threadDump/json,null,AVAILABLE}
+handler.ContextHandler - Stopped o.s.j.s.ServletContextHandler@a/storage/json,null,UNAVAILABLE}
+handler.ContextHandler - Started o.s.j.s.ServletContextHandler@ebd{/executors,null,AVAILABLE}
+handler.ContextHandler - Started o.s.j.s.ServletContextHandler@/stages/stage,null,AVAILABLE}
+handler.ContextHandler - Stopped o.s.j.s.ServletContextHandler@ced{/executors/json,null,UNAVAILABLE}
+handler.ContextHandler - Started o.s.j.s.ServletContextHandler@d/storage/rdd,null,AVAILABLE}
+handler.ContextHandler - Started o.s.j.s.ServletContextHandler@c/,null,AVAILABLE}
+handler.ContextHandler - Stopped o.s.j.s.ServletContextHandler@{/jobs/json,null,UNAVAILABLE}
+handler.ContextHandler - Stopped o.s.j.s.ServletContextHandler@f/environment/json,null,UNAVAILABLE}
+handler.ContextHandler - Stopped o.s.j.s.ServletContextHandler@{/stages/stage/json,null,UNAVAILABLE}
+handler.ContextHandler - Started o.s.j.s.ServletContextHandler@f/storage/rdd/json,null,AVAILABLE}
+handler.ContextHandler - Started o.s.j.s.ServletContextHandler@cd/storage,null,AVAILABLE}
+handler.ContextHandler - Stopped o.s.j.s.ServletContextHandler@/stages/pool,null,UNAVAILABLE}
+handler.ContextHandler - Started o.s.j.s.ServletContextHandler@/environment,null,AVAILABLE}
+handler.ContextHandler - Stopped o.s.j.s.ServletContextHandler@ebd{/executors,null,UNAVAILABLE}
+handler.ContextHandler - Stopped o.s.j.s.ServletContextHandler@/environment,null,UNAVAILABLE}
+memory.MemoryStore - Block broadcast_stored as values in memory 
+memory.MemoryStore - MemoryStore started with capacity GB
+memory.MemoryStore - MemoryStore cleared
+memory.MemoryStore - Block broadcast_piecestored as bytes in memory 
+client.StandaloneAppClient$ClientEndpoint - Connecting to master 
+client.StandaloneAppClient$ClientEndpoint - Executor updated: app-is now RUNNING
+client.StandaloneAppClient$ClientEndpoint - Executor added: app-on worker-with cores
+util.log - Logging initialized @s
+spark.SparkContext - Added JAR file:/home/hadoop/ska-jar at with timestamp 
+spark.SparkContext - Starting job: count at Pipeline_partitioning_auto.scala:
+spark.SparkContext - Created broadcast from broadcast at DAGScheduler.scala:
+spark.SparkContext - Running Spark version 
+spark.SparkContext - Successfully stopped SparkContext
